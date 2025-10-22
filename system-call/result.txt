@@ -1,0 +1,37 @@
+jiyeon011@jiyeon011-VirtualBox:~/test$ gcc call_my_queue.c -o call_my_queue
+jiyeon011@jiyeon011-VirtualBox:~/test$ ./call_my_queue
+Enqueue: 1
+Enqueue : 2
+Enqueue : 3
+Enqueue : 3
+Dequeue : 1
+Dequeue : 2
+Dequeue : 3
+
+
+[   81.447358] Queue Front---------------
+[   81.447363] 1
+[   81.447363] Queue Rear---------------
+[   81.447451] Queue Front---------------
+[   81.447452] 1
+[   81.447453] 2
+[   81.447453] Queue Rear---------------
+[   81.447457] Queue Front---------------
+[   81.447457] 1
+[   81.447458] 2
+[   81.447459] 3
+[   81.447459] Queue Rear---------------
+[   81.447462] Queue Front---------------
+[   81.447462] 1
+[   81.447463] 2
+[   81.447464] 3
+[   81.447465] Queue Rear---------------
+[   81.447467] Queue Front---------------
+[   81.447468] 2
+[   81.447469] 3
+[   81.447469] Queue Rear---------------
+[   81.447472] Queue Front---------------
+[   81.447472] 3
+[   81.447473] Queue Rear---------------
+[   81.447475] Queue Front---------------
+[   81.447476] Queue Rear---------------
